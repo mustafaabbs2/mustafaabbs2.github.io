@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="education container-fluid"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row"
+    >
+      <h2>
+        Education
+      </h2>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-4"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/seneca_bsd"
+              onClick={[Function]}
+              target="seneca-bsd"
+            >
+              <img
+                alt="seneca"
+                src="seneca.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Software Development
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              Seneca College, Toronto ON
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-sm-4"
+        >
+          <div
+            className="row"
+          >
+            <a
+              href="https://bit.ly/seneca_ect"
+              onClick={[Function]}
+              target="seneca-ect"
+            >
+              <img
+                alt="seneca"
+                src="seneca.png"
+              />
+            </a>
+          </div>
+          <div
+            className="row"
+          >
+            <h3>
+              Computer Engineering
+            </h3>
+          </div>
+          <div
+            className="row"
+          >
+            <p>
+              Seneca College, Toronto ON
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

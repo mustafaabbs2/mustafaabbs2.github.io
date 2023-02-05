@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="open-source container-fluid"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row"
+    >
+      <h2>
+        Open Source
+      </h2>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <h3>
+            40+ contributions across projects including:
+          </h3>
+          <p>
+            Rust, Homebrew, Rails, Tensorflow, AMO, Activity Stream and more...
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="https://bit.ly/github_mozilla"
+            onClick={[Function]}
+            target="github-mozilla"
+          >
+            <img
+              alt="firefox"
+              src="firefox.png"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="https://bit.ly/github_google"
+            onClick={[Function]}
+            target="github-tensorflow"
+          >
+            <img
+              alt="tensorflow"
+              src="tensorflow.png"
+            />
+          </a>
+        </div>
+        <div
+          className="col-sm-3"
+        >
+          <a
+            href="https://bit.ly/github_rails"
+            onClick={[Function]}
+            target="github-rails"
+          >
+            <img
+              alt="rails"
+              src="rails.png"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot 1`] = `
+<div
+  className="hackathon container-fluid"
+>
+  <div
+    className="col"
+  >
+    <div
+      className="row"
+    >
+      <h2>
+        Hackathons
+      </h2>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            <span
+              className="winna"
+            >
+              4th Place
+            </span>
+             - Genesys Hackathon
+          </h4>
+          <img
+            alt="genesys"
+            src="genesys.png"
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            <span
+              className="winna"
+            >
+              2nd Place
+            </span>
+             - HackingGood
+          </h4>
+          <img
+            alt="hackingGood"
+            src="hacking-good.png"
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            Mentor & Judge - TOHacks
+          </h4>
+          <img
+            alt="toHacks"
+            src="tohacks.png"
+          />
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            RBC Next Great Innovator
+          </h4>
+          <img
+            alt="rbcNGI"
+            src="rbc-ngi.png"
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            OpenIDEO
+          </h4>
+          <img
+            alt="openIDEO"
+            src="open-ideo.png"
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            GM HackAI
+          </h4>
+          <img
+            alt="gmHackAI"
+            src="gm-hack-ai.png"
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <h4>
+            <span
+              className="winna"
+            >
+              3rd Place
+            </span>
+             - OSCE Days
+          </h4>
+          <img
+            alt="osceDays"
+            src="osce-days.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
