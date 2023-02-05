@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a2573f1.chunk.css",
+    "main.js": "/static/js/main.35c276eb.chunk.js",
+    "main.js.map": "/static/js/main.35c276eb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.906d5e0f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.906d5e0f.js.map",
+    "static/css/2.95258f03.chunk.css": "/static/css/2.95258f03.chunk.css",
+    "static/js/2.9322f4d5.chunk.js": "/static/js/2.9322f4d5.chunk.js",
+    "static/js/2.9322f4d5.chunk.js.map": "/static/js/2.9322f4d5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c033478baf3404295ab7060604b921d2.js": "/precache-manifest.c033478baf3404295ab7060604b921d2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.95258f03.chunk.css.map": "/static/css/2.95258f03.chunk.css.map",
+    "static/css/main.3a2573f1.chunk.css.map": "/static/css/main.3a2573f1.chunk.css.map",
+    "static/js/2.9322f4d5.chunk.js.LICENSE.txt": "/static/js/2.9322f4d5.chunk.js.LICENSE.txt",
+    "static/media/about.jpg": "/static/media/about.90e90cf3.jpg",
+    "static/media/contact.jpg": "/static/media/contact.c9999eae.jpg",
+    "static/media/education.jpg": "/static/media/education.b74bc4fb.jpg",
+    "static/media/experience.jpg": "/static/media/experience.ae0b11e8.jpg",
+    "static/media/firefox.png": "/static/media/firefox.c6523570.png",
+    "static/media/genesys.png": "/static/media/genesys.f51c3748.png",
+    "static/media/gm-hack-ai.png": "/static/media/gm-hack-ai.e37992f9.png",
+    "static/media/hackathon.jpg": "/static/media/hackathon.a1d35325.jpg",
+    "static/media/hacking-good.png": "/static/media/hacking-good.e65b0460.png",
+    "static/media/intro.jpg": "/static/media/intro.28931077.jpg",
+    "static/media/open-ideo.png": "/static/media/open-ideo.304958ad.png",
+    "static/media/opensource.jpg": "/static/media/opensource.5b05e611.jpg",
+    "static/media/osce-days.png": "/static/media/osce-days.ac26bd3d.png",
+    "static/media/rbc-ngi.png": "/static/media/rbc-ngi.24d09fc2.png",
+    "static/media/tensorflow.png": "/static/media/tensorflow.51ff19f6.png",
+    "static/media/tohacks.png": "/static/media/tohacks.7ec3ae64.png",
+    "static/media/tunnelbear.png": "/static/media/tunnelbear.40d4e547.png",
+    "static/media/twitter.png": "/static/media/twitter.71b8502b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.906d5e0f.js",
+    "static/css/2.95258f03.chunk.css",
+    "static/js/2.9322f4d5.chunk.js",
+    "static/css/main.3a2573f1.chunk.css",
+    "static/js/main.35c276eb.chunk.js"
+  ]
+}
