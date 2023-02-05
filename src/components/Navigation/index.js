@@ -36,7 +36,7 @@ const Navigation = () => {
             )
           }
         >
-          Sean Prashad
+          Mustafa Bhotvawala
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

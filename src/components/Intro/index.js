@@ -12,9 +12,7 @@ const Intro = () => {
     <Container fluid>
       <Col>
         <Row>
-          <h1>
-            Welcome to <span className="brand">my</span> corner of the net
-          </h1>
+          <h1>Fluids are cool. So is Yaku.</h1>
         </Row>
 
         <Row className="social">

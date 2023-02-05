@@ -2,7 +2,8 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Event } from '../Shared/Tracking';
 
-import senecaImg from '../../images/thumbnails/companies/seneca.png';
+import rwthImg from '../../images/thumbnails/companies/rwth.png';
+import coepImg from '../../images/thumbnails/companies/coep.jpeg';
 
 import './styles.scss';
 
@@ -28,14 +29,18 @@ const Education = () => {
                     )
                   }
                 >
-                  <img src={senecaImg} alt="seneca" />
+                  <img
+                    src={rwthImg}
+                    alt="seneca"
+                    style={{ width: '200px', height: '200px' }}
+                  />
                 </a>
               </Row>
               <Row>
-                <h3>Software Development</h3>
+                <h3>Computational Science</h3>
               </Row>
               <Row>
-                <p>Seneca College, Toronto ON</p>
+                <p>RWTH Aachen</p>
               </Row>
             </Col>
             <Col sm={4}>
@@ -51,14 +56,18 @@ const Education = () => {
                     )
                   }
                 >
-                  <img src={senecaImg} alt="seneca" />
+                  <img
+                    src={coepImg}
+                    alt="coep"
+                    style={{ width: '200px', height: '200px' }}
+                  />
                 </a>
               </Row>
               <Row>
-                <h3>Computer Engineering</h3>
+                <h3>Mechanical Engineering</h3>
               </Row>
               <Row>
-                <p>Seneca College, Toronto ON</p>
+                <p>College of Engineering Pune</p>
               </Row>
             </Col>
           </Row>

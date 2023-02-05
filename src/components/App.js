@@ -1,5 +1,6 @@
 import React from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
+// react-scroll-parallax is a React library for creating scroll-based parallax effects. Parallax effects are animations that create the illusion of depth by making the background elements move more slowly than the foreground elements when the user scrolls the page.
 
 import Navigation from './Navigation';
 import Intro from './Intro';
