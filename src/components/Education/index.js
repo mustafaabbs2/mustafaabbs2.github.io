@@ -32,7 +32,7 @@ const Education = () => {
                   <img
                     src={rwthImg}
                     alt="seneca"
-                    style={{ width: '200px', height: '200px' }}
+                    style={{ width: '100px', height: '100px' }}
                   />
                 </a>
               </Row>
@@ -59,7 +59,7 @@ const Education = () => {
                   <img
                     src={coepImg}
                     alt="coep"
-                    style={{ width: '200px', height: '200px' }}
+                    style={{ width: '100px', height: '100px' }}
                   />
                 </a>
               </Row>

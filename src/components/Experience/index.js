@@ -42,7 +42,7 @@ const Experience = () => {
                 <h3>Software Engineer</h3>
               </Row>
               <Row>
-                <h4>Square</h4>
+                <h4>ANSYS</h4>
               </Row>
             </Col>
           </Row>
@@ -68,7 +68,7 @@ const Experience = () => {
                 <h3>Site Reliability Engineer II</h3>
               </Row>
               <Row>
-                <h4>Twitter</h4>
+                <h4>Volkswagen AG.</h4>
               </Row>
             </Col>
             <Col sm={3}>

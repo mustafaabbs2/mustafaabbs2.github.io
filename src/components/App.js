@@ -12,8 +12,8 @@ import Hackathon from './Hackathon';
 import Contact from './Contact';
 
 // Parallax background images
-import introBackground from '../images/backgrounds/intro.jpg';
-import aboutBackground from '../images/backgrounds/about.jpg';
+import introBackground from '../images/backgrounds/intro5.png';
+import aboutBackground from '../images/backgrounds/black.png';
 import educationBackground from '../images/backgrounds/education.jpg';
 import experienceBackground from '../images/backgrounds/experience.jpg';
 import opensourceBackground from '../images/backgrounds/opensource.jpg';
@@ -41,6 +41,7 @@ class App extends React.Component {
 
           <Parallax
             amount={0.25}
+            blur={{ min: -15, max: 15 }}
             className="intro"
             image={String(introBackground)}
           >
@@ -51,6 +52,7 @@ class App extends React.Component {
             amount={0.25}
             className="about-parallax"
             image={String(aboutBackground)}
+            strength={400}
           >
             <About />
           </Parallax>
@@ -79,13 +81,13 @@ class App extends React.Component {
             <OpenSource />
           </Parallax>
 
-          <Parallax
+          {/* <Parallax
             amount={0.25}
             className="hackathon-parallax"
             image={String(hackathonBackground)}
           >
             <Hackathon />
-          </Parallax>
+          </Parallax> */}
 
           <Parallax
             amount={0.25}

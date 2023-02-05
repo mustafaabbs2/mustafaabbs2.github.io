@@ -8,7 +8,7 @@ import { IoLogoJavascript } from 'react-icons/io';
 import { DiMysql } from 'react-icons/di';
 import { Event } from '../Shared/Tracking';
 
-import aboutImg from '../../images/about.jpg';
+import aboutImg from '../../images/about2.png';
 
 import './styles.scss';
 
