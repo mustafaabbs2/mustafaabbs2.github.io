@@ -10,6 +10,7 @@ import Experience from './Experience';
 import OpenSource from './OpenSource';
 import Hackathon from './Hackathon';
 import Contact from './Contact';
+import ParticleBackground from './ParticleBackground/ParticleBackground.js';
 
 // Parallax background images
 import introBackground from '../images/backgrounds/intro5.png';
