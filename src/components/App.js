@@ -13,9 +13,9 @@ import Contact from './Contact';
 import ParticleBackground from './ParticleBackground/ParticleBackground.js';
 
 // Parallax background images
-import introBackground from '../images/backgrounds/intro5.png';
+import introBackground from '../images/backgrounds/astronaut1.png';
 import aboutBackground from '../images/backgrounds/black.png';
-import educationBackground from '../images/backgrounds/education.jpg';
+import educationBackground from '../images/backgrounds/studying.png';
 import experienceBackground from '../images/backgrounds/experience.jpg';
 import opensourceBackground from '../images/backgrounds/opensource.jpg';
 import hackathonBackground from '../images/backgrounds/hackathon.jpg';
