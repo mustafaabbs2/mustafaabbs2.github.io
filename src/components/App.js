@@ -21,6 +21,13 @@ import opensourceBackground from '../images/backgrounds/opensource.jpg';
 import hackathonBackground from '../images/backgrounds/hackathon.jpg';
 import contactBackground from '../images/backgrounds/contact.jpg';
 
+import gradient1 from '../images/gradient1.png';
+import gradient2 from '../images/gradient2.png';
+import gradient3 from '../images/gradient3.png';
+import gradient4 from '../images/gradient4.png';
+import gradient5 from '../images/gradient5.png';
+import gradient6 from '../images/gradient6.png';
+
 // Shared components
 import { Parallax, ParallaxCache } from './Shared/Parallax';
 import { initGA, PageView } from './Shared/Tracking';
@@ -44,7 +51,7 @@ class App extends React.Component {
             amount={0.25}
             blur={{ min: -15, max: 15 }}
             className="intro"
-            image={String(introBackground)}
+            image={String(gradient6)}
           >
             <Intro />
           </Parallax>
@@ -52,7 +59,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="about-parallax"
-            image={String(aboutBackground)}
+            image={String(gradient6)}
             strength={400}
           >
             <About />
@@ -61,7 +68,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="education-parallax"
-            image={String(educationBackground)}
+            image={String(gradient6)}
           >
             <Education />
           </Parallax>
@@ -69,7 +76,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="experience-parallax"
-            image={String(experienceBackground)}
+            image={String(gradient6)}
           >
             <Experience />
           </Parallax>
@@ -77,7 +84,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="open-source-parallax"
-            image={String(opensourceBackground)}
+            image={String(gradient6)}
           >
             <OpenSource />
           </Parallax>
@@ -93,7 +100,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="contact-parallax"
-            image={String(contactBackground)}
+            image={String(gradient6)}
           >
             <Contact />
           </Parallax>
