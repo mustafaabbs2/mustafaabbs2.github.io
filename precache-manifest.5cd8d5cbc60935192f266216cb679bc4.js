@@ -1,47 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3f70f3ff03d2d9e2a2b8c0d3d4fab59",
+    "revision": "25af0dfbaf5d8a7d9c79d4c3246de965",
     "url": "/mustafaabbs2.github.io/index.html"
   },
   {
-    "revision": "8e3ebdd4a68896f8b081",
+    "revision": "32454dfaefa807a4154d",
     "url": "/mustafaabbs2.github.io/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "eb78492a37fd8aebbc5f",
+    "revision": "c20021740e859b939740",
     "url": "/mustafaabbs2.github.io/static/css/main.3a2573f1.chunk.css"
   },
   {
-    "revision": "8e3ebdd4a68896f8b081",
-    "url": "/mustafaabbs2.github.io/static/js/2.9322f4d5.chunk.js"
+    "revision": "32454dfaefa807a4154d",
+    "url": "/mustafaabbs2.github.io/static/js/2.64c1d910.chunk.js"
   },
   {
     "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/mustafaabbs2.github.io/static/js/2.9322f4d5.chunk.js.LICENSE.txt"
+    "url": "/mustafaabbs2.github.io/static/js/2.64c1d910.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb78492a37fd8aebbc5f",
-    "url": "/mustafaabbs2.github.io/static/js/main.35c276eb.chunk.js"
+    "revision": "c20021740e859b939740",
+    "url": "/mustafaabbs2.github.io/static/js/main.8ee17b06.chunk.js"
   },
   {
     "revision": "2f355f343ae201e615d6",
     "url": "/mustafaabbs2.github.io/static/js/runtime-main.d44dd07d.js"
   },
   {
-    "revision": "6e5943b946ce73abf48ee4ef7f5a2341",
-    "url": "/mustafaabbs2.github.io/static/media/about.6e5943b9.jpg"
+    "revision": "cd430890ade95e060d7e78b87bb3e79c",
+    "url": "/mustafaabbs2.github.io/static/media/about2.cd430890.png"
   },
   {
-    "revision": "90e90cf325b87d917055b1c2527fafad",
-    "url": "/mustafaabbs2.github.io/static/media/about.90e90cf3.jpg"
+    "revision": "f82b9d76d61ac61398ac3ec6b8436083",
+    "url": "/mustafaabbs2.github.io/static/media/astronaut1.f82b9d76.png"
+  },
+  {
+    "revision": "7721c93f47555f4db690cee34bd45469",
+    "url": "/mustafaabbs2.github.io/static/media/coep.7721c93f.jpeg"
   },
   {
     "revision": "c9999eaecf6b9576781508ebbe29ffb2",
     "url": "/mustafaabbs2.github.io/static/media/contact.c9999eae.jpg"
-  },
-  {
-    "revision": "b74bc4fbaebad5b6f3fe706b2e8cd841",
-    "url": "/mustafaabbs2.github.io/static/media/education.b74bc4fb.jpg"
   },
   {
     "revision": "ae0b11e85b440afc4aab29e25d7067c0",
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mustafaabbs2.github.io/static/media/hacking-good.e65b0460.png"
   },
   {
-    "revision": "2893107735dc7eaad332e8a95cefd416",
-    "url": "/mustafaabbs2.github.io/static/media/intro.28931077.jpg"
-  },
-  {
     "revision": "304958adf91d9ae94f56607bbab2d2bb",
     "url": "/mustafaabbs2.github.io/static/media/open-ideo.304958ad.png"
   },
@@ -86,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24d09fc2ddd9ba137c76a3afc8730bd3",
     "url": "/mustafaabbs2.github.io/static/media/rbc-ngi.24d09fc2.png"
+  },
+  {
+    "revision": "ef665e8af3bfb2c0600dc51efb505306",
+    "url": "/mustafaabbs2.github.io/static/media/studying.ef665e8a.png"
   },
   {
     "revision": "51ff19f68b6360753c4979ede0c350ea",
