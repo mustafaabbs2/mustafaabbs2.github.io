@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0e30a8adf53418a2172702ab1eb2239",
+    "revision": "e26067c78b493f1a9253daaa85d4aecd",
     "url": "/index.html"
   },
   {
-    "revision": "32454dfaefa807a4154d",
+    "revision": "1946871563f61a1e6804",
     "url": "/static/css/2.95258f03.chunk.css"
   },
   {
-    "revision": "c20021740e859b939740",
+    "revision": "6ea3505f5c5978bada45",
     "url": "/static/css/main.3a2573f1.chunk.css"
   },
   {
-    "revision": "32454dfaefa807a4154d",
-    "url": "/static/js/2.64c1d910.chunk.js"
+    "revision": "1946871563f61a1e6804",
+    "url": "/static/js/2.ffbc4797.chunk.js"
   },
   {
     "revision": "8a137f586fcebb1a370343eb47b7677c",
-    "url": "/static/js/2.64c1d910.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ffbc4797.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c20021740e859b939740",
-    "url": "/static/js/main.8ee17b06.chunk.js"
+    "revision": "6ea3505f5c5978bada45",
+    "url": "/static/js/main.2fe15d4b.chunk.js"
   },
   {
     "revision": "2e7e6a13be09944904b1",
@@ -58,6 +58,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e37992f9dbc8a0675d12d2e22071dc7c",
     "url": "/static/media/gm-hack-ai.e37992f9.png"
+  },
+  {
+    "revision": "1bd2a19fbe664ad6e7f8f242f055ed77",
+    "url": "/static/media/gradient1.1bd2a19f.png"
+  },
+  {
+    "revision": "f6dddc490ccf3775c8b205de5496416f",
+    "url": "/static/media/gradient2.f6dddc49.png"
+  },
+  {
+    "revision": "7e75846151128df847b097d22cd7c9ae",
+    "url": "/static/media/gradient3.7e758461.png"
+  },
+  {
+    "revision": "87324f4a19ffae12ddfeadb031b10dbc",
+    "url": "/static/media/gradient4.87324f4a.png"
+  },
+  {
+    "revision": "7afe022e745e165ae152a54a64e089c6",
+    "url": "/static/media/gradient5.7afe022e.png"
+  },
+  {
+    "revision": "f235a804c0d6f9838679bcc02b462b43",
+    "url": "/static/media/gradient6.f235a804.png"
   },
   {
     "revision": "a1d353255a73340bb46119002a3df88b",
