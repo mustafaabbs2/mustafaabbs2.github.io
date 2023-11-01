@@ -12,7 +12,7 @@ const Intro = () => {
     <Container fluid>
       <Col>
         <Row>
-          <h1>Welcome to my space!</h1>
+          <h1>Welcome to my space2!</h1>
         </Row>
 
         <Row className="social">
