@@ -4,17 +4,11 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 import Navigation from './Navigation';
 import About from './About';
-import Education from './Education';
 import Experience from './Experience';
-import OpenSource from './OpenSource';
 import Contact from './Contact';
 
 // Parallax background images
 import black from '../images/backgrounds/black.png';
-import educationBackground from '../images/backgrounds/studying.png';
-import experienceBackground from '../images/backgrounds/experience.jpg';
-import opensourceBackground from '../images/backgrounds/opensource.jpg';
-import contactBackground from '../images/backgrounds/contact.jpg';
 
 // Shared components
 import { Parallax, ParallaxCache } from './Shared/Parallax';
@@ -46,32 +40,16 @@ class App extends React.Component {
 
           <Parallax
             amount={0.25}
-            className="education-parallax"
-            image={String(black)}
-          >
-            <Education />
-          </Parallax>
-
-          <Parallax
-            amount={0.25}
             className="experience-parallax"
-            image={String(experienceBackground)}
+            image={String(black)}
           >
             <Experience />
           </Parallax>
 
           <Parallax
             amount={0.25}
-            className="open-source-parallax"
-            image={String(opensourceBackground)}
-          >
-            <OpenSource />
-          </Parallax>
-
-          <Parallax
-            amount={0.25}
             className="contact-parallax"
-            image={String(contactBackground)}
+            image={String(black)}
           >
             <Contact />
           </Parallax>

@@ -39,7 +39,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Software Engineer</h3>
+                <h3>R&D Software Engineer</h3>
               </Row>
               <Row>
                 <h4>ANSYS</h4>
@@ -65,7 +65,7 @@ const Experience = () => {
                 </a>
               </Row>
               <Row>
-                <h3>Site Reliability Engineer II</h3>
+                <h3>R&D Software Engineer</h3>
               </Row>
               <Row>
                 <h4>Volkswagen AG.</h4>
@@ -117,101 +117,6 @@ const Experience = () => {
                 <h4>PagerDuty</h4>
               </Row>
             </Col>
-          </Row>
-
-          <Row>
-            <Col sm={3}>
-              <Row>
-                <a
-                  href="https://bit.ly/wattpad_home"
-                  target="wattpad"
-                  onClick={() =>
-                    Event(
-                      'Experience',
-                      'Clicked Wattpad company link',
-                      'Wattpad company link',
-                    )
-                  }
-                >
-                  <img src={wattpadImg} alt="wattpad" />
-                </a>
-              </Row>
-              <Row>
-                <h3>Software Engineer Intern</h3>
-              </Row>
-              <Row>
-                <h4>Wattpad</h4>
-              </Row>
-            </Col>
-            <Col sm={3}>
-              <Row>
-                <a
-                  href="https://bit.ly/capitalone_home"
-                  target="capital-one"
-                  onClick={() =>
-                    Event(
-                      'Experience',
-                      'Clicked Capital One company link',
-                      'Capital One company link',
-                    )
-                  }
-                >
-                  <img src={capitalOneImg} alt="capital-one" />
-                </a>
-              </Row>
-              <Row>
-                <h3>Software Engineer Intern</h3>
-              </Row>
-              <Row>
-                <h4>Capital One</h4>
-              </Row>
-            </Col>
-            <Col sm={3}>
-              <Row>
-                <a
-                  href="https://bit.ly/bmo_home"
-                  target="bmo"
-                  onClick={() =>
-                    Event(
-                      'Experience',
-                      'Clicked BMO company link',
-                      'BMO company link',
-                    )
-                  }
-                >
-                  <img src={bmoImg} alt="bmo" />
-                </a>
-              </Row>
-              <Row>
-                <h3>Software Engineer Intern</h3>
-              </Row>
-              <Row>
-                <h4>Bank of Montreal</h4>
-              </Row>
-            </Col>
-            {/* <Col sm={3}>
-              <Row>
-                <a
-                  href="https://bit.ly/vincentinc_home"
-                  target="vincent-associates"
-                  onClick={() =>
-                    Event(
-                      'Experience',
-                      'Clicked Vincent Associates company link',
-                      'Vincent Associates company link',
-                    )
-                  }
-                >
-                  <img src={vincentAssociatesImg} alt="vincent-associates" />
-                </a>
-              </Row>
-              <Row>
-                <h3>Software Engineer</h3>
-              </Row>
-              <Row>
-                <h4>Vincent Associates</h4>
-              </Row>
-            </Col> */}
           </Row>
         </Col>
       </Col>

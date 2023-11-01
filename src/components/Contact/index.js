@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, NavLink } from 'reactstrap';
-import { FaEnvelope, FaGithub, FaMedium } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import Emoji from '../Shared/Emoji';
 import { Event } from '../Shared/Tracking';
 
@@ -17,7 +17,7 @@ const Contact = () => {
             <Col sm={1}>
               <NavLink
                 target="_blank"
-                href="https://bit.ly/seanprashad_github"
+                href="https://github.com/mustafaabbs2"
                 onClick={() =>
                   Event('Contact', 'Clicked GitHub link', 'GitHub link')
                 }
@@ -28,18 +28,18 @@ const Contact = () => {
             <Col sm={1}>
               <NavLink
                 target="_blank"
-                href="https://bit.ly/seanprashad_medium"
+                href="https://www.linkedin.com/in/mustafaabbs2/"
                 onClick={() =>
-                  Event('Contact', 'Clicked Medium link', 'Medium link')
+                  Event('Contact', 'Clicked Linkedin link', 'Linkedin link')
                 }
               >
-                <FaMedium />
+                <FaLinkedin />
               </NavLink>
             </Col>
             <Col sm={1}>
               <NavLink
                 target="_blank"
-                href="mailto:[first][last][at]outlook.com"
+                href="mailto:mustafaabbs2@gmail.com"
                 onClick={() =>
                   Event('Contact', 'Clicked Email link', 'Email link')
                 }
@@ -51,12 +51,7 @@ const Contact = () => {
         </Col>
 
         <footer>
-          <Row>
-            <p>
-              Made with <Emoji label="heart" symbol="💙" /> in Toronto
-            </p>
-          </Row>
-          <Row>&copy; {currYear} Sean Prashad</Row>
+          <Row>&copy; {currYear} Mustafa Bhotvawala</Row>
         </footer>
       </Col>
     </Container>
