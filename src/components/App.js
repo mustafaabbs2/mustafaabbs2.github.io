@@ -3,22 +3,17 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 // react-scroll-parallax is a React library for creating scroll-based parallax effects. Parallax effects are animations that create the illusion of depth by making the background elements move more slowly than the foreground elements when the user scrolls the page.
 
 import Navigation from './Navigation';
-import Intro from './Intro';
 import About from './About';
 import Education from './Education';
 import Experience from './Experience';
 import OpenSource from './OpenSource';
-import Hackathon from './Hackathon';
 import Contact from './Contact';
-import ParticleBackground from './ParticleBackground/ParticleBackground.js';
 
 // Parallax background images
-import introBackground from '../images/backgrounds/intro5.png';
 import aboutBackground from '../images/backgrounds/black.png';
 import educationBackground from '../images/backgrounds/education.jpg';
 import experienceBackground from '../images/backgrounds/experience.jpg';
 import opensourceBackground from '../images/backgrounds/opensource.jpg';
-import hackathonBackground from '../images/backgrounds/hackathon.jpg';
 import contactBackground from '../images/backgrounds/contact.jpg';
 
 // Shared components
@@ -39,15 +34,6 @@ class App extends React.Component {
         <ParallaxCache />
         <div className="App">
           <Navigation />
-
-          <Parallax
-            amount={0.25}
-            blur={{ min: -15, max: 15 }}
-            className="intro"
-            image={String(introBackground)}
-          >
-            <Intro />
-          </Parallax>
 
           <Parallax
             amount={0.25}
