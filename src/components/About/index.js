@@ -1,12 +1,10 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { IconContext } from 'react-icons';
-import { Link } from 'react-scroll';
 import ReactTooltip from 'react-tooltip';
 import { FaGithub, FaReact } from 'react-icons/fa';
-
+// import {TbBrandCpp} from 'react-icons/tb';
 import { IoLogoJavascript } from 'react-icons/io';
-import { Event } from '../Shared/Tracking';
 
 import aboutImg from '../../images/about2.png';
 
@@ -18,7 +16,8 @@ const About = () => {
       <ReactTooltip place="bottom" />
       <Col>
         <Row>
-          <h2>Hey there!</h2>
+          <h2 style={{ textTransform: 'capitalize' }}>Hi! &#x1F44B; </h2>
+          {/* h2 caps all letters by default, use text transform */}
         </Row>
         <Col>
           <Row>
@@ -30,18 +29,15 @@ const About = () => {
             <Col sm={5}>
               <Row>
                 <Row>
-                  <p>
-                    Hey! I&apos;m Mustafa, a R&D Software Engineer at ANSYS!
-                  </p>
+                  <p>Hi! I&apos;m Mustafa, a R&D Software Engineer at ANSYS!</p>
                 </Row>
 
                 <Row>
                   <p>
-                    My name is Mustafa Bhotvawala. I have been working on
-                    numerical mathematics problems for a good part of the last
-                    decade, where writing and shipping software for
-                    Computational Fluid Dynamics (CFD) problems occupying a
-                    major portion of my time.
+                    I have been working on numerical mathematics problems for a
+                    good part of the last decade, where writing and shipping
+                    software for Computational Fluid Dynamics (CFD) problems
+                    occupying a major portion of my time.
                   </p>
                 </Row>
 
@@ -54,8 +50,8 @@ const About = () => {
               </Row>
               <Row>
                 <IconContext.Provider value={{ size: '5em' }}>
+                  {/* <TbBrandCpp data-tip="GitHub" /> */}
                   <IoLogoJavascript data-tip="JavaScript" />
-                  {/* <SiCpp data-tip="C++" /> Use the C++ icon */}
                   <FaReact data-tip="React" />
                   <FaGithub data-tip="GitHub" />
                 </IconContext.Provider>

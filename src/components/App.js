@@ -9,6 +9,7 @@ import Contact from './Contact';
 
 // Parallax background images
 import black from '../images/backgrounds/black.png';
+import white from '../images/backgrounds/contact.jpg';
 
 // Shared components
 import { Parallax, ParallaxCache } from './Shared/Parallax';
@@ -49,7 +50,7 @@ class App extends React.Component {
           <Parallax
             amount={0.25}
             className="contact-parallax"
-            image={String(black)}
+            image={String(white)}
           >
             <Contact />
           </Parallax>

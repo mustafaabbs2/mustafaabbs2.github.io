@@ -6,11 +6,6 @@ import squareImg from '../../images/thumbnails/companies/square.png';
 import twitterImg from '../../images/thumbnails/companies/twitter.png';
 import tunnelbearImg from '../../images/thumbnails/companies/tunnelbear.png';
 import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
-import wattpadImg from '../../images/thumbnails/companies/wattpad.png';
-import capitalOneImg from '../../images/thumbnails/companies/capital-one.png';
-import bmoImg from '../../images/thumbnails/companies/bmo.png';
-// import vincentAssociatesImg from '../../images/thumbnails/companies/vincent-associates.png';
-
 import './styles.scss';
 
 const Experience = () => {
