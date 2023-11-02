@@ -70,7 +70,7 @@ const Navigation = () => {
             <NavItem>
               <NavLink
                 target="_blank"
-                href="https://mustafabhotvawala.com/"
+                href="https://mustafabhotvawala.com/cfd-blog/"
                 onClick={() =>
                   Event('Navigation', 'Clicked Blog link', 'Blog link')
                 }
