@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { Document, Page } from 'react-pdf';
+import { Document, Page } from 'react-pdf';
 
 const CV = () => {
   const [numPages, setNumPages] = useState(null);

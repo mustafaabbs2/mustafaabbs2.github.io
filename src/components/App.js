@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 import About from './About';
 import Experience from './Experience';
 import Contact from './Contact';
-import CV from './CV';
+// import CV from './CV';
 
 // Parallax background images
 import black from '../images/backgrounds/black.png';
