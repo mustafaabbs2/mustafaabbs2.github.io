@@ -44,8 +44,10 @@ const About = () => {
 
                 <Row>
                   <p style={{ marginTop: '50px' }}>
-                    I enjoy writing code and you can often find me tinkering
-                    with technology.
+                    I can usually be found in a programming IDE or reading. When
+                    I'm not tinkering with any new technology I can code with,
+                    I'm usually reading about medicine and history. And I like
+                    learning languages - currently on my 8th.
                   </p>
                 </Row>
               </Row>
