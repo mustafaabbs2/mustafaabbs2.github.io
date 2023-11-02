@@ -7,6 +7,7 @@ import { FaGithub, FaReact, FaPython } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 
 import aboutImg from '../../images/about2.png';
+import iconImg from '../../images/logo_small.ico';
 
 import './styles.scss';
 
@@ -21,7 +22,7 @@ const About = () => {
         </Row>
         <Col>
           <Row>
-            <Col sm={2}>
+            <Col sm={4}>
               <img src={aboutImg} alt="profile" />
             </Col>
           </Row>
@@ -42,9 +43,9 @@ const About = () => {
                 </Row>
 
                 <Row>
-                  <p>
+                  <p style={{ marginTop: '50px' }}>
                     I enjoy writing code and you can often find me tinkering
-                    with technology:
+                    with technology.
                   </p>
                 </Row>
               </Row>
@@ -55,6 +56,22 @@ const About = () => {
                   <FaGithub data-tip="GitHub" />
                 </IconContext.Provider>
               </Row>
+              {/* <Row>
+                <Row>
+                  <p style={{ marginTop: '100px' }}>
+                    You&apos;re probably here because I also write; I write about the intersection of computer science and numerical mathematics, you can find these articles on my blog here:
+                  </p>
+                </Row>
+
+                <Row>
+                  <p>
+                      <a href="https://www.ansys.com/">
+                      <img src={iconImg} 
+                      alt="ico" />
+                        </a>
+                  </p>
+                </Row>
+              </Row> */}
             </Col>
           </Row>
         </Col>
