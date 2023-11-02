@@ -2,11 +2,12 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #000000 !important;
   cursor: pointer;
 }
 
 .navbar-brand:hover {
-  color: #e75926 !important;
+  color: #5271ff !important;
 }
 
 .navbar-nav {
@@ -18,13 +19,13 @@
     cursor: pointer;
 
     a {
-      color: #fff !important;
+      color: #000000 !important;
       display: inline;
       font-size: 14px;
     }
 
     a:hover {
-      color: #e75926 !important;
+      color: #5271ff !important;
     }
   }
 }

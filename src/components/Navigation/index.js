@@ -19,7 +19,7 @@ const Navigation = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar color="dark" dark expand="md" fixed="top">
+    <Navbar color="light" dark expand="md" fixed="top">
       <Container>
         <Link
           to="intro"
@@ -29,6 +29,7 @@ const Navigation = () => {
           smooth
           duration={1000}
         >
+          {/* <img src= "../images/backgrounds/black.png" className="mr-2" /> */}
           Mustafa Bhotvawala
         </Link>
         <NavbarToggler onClick={toggle} />
