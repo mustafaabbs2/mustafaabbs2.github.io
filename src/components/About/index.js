@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { IconContext } from 'react-icons';
 import ReactTooltip from 'react-tooltip';
-import { FaGithub, FaReact } from 'react-icons/fa';
-// import {TbBrandCpp} from 'react-icons/tb';
+import { FaGithub, FaReact, FaPython } from 'react-icons/fa';
+// import { Tb12Hours } from "react-icons/tb";
 import { IoLogoJavascript } from 'react-icons/io';
 
 import aboutImg from '../../images/about2.png';
@@ -50,8 +50,7 @@ const About = () => {
               </Row>
               <Row>
                 <IconContext.Provider value={{ size: '5em' }}>
-                  {/* <TbBrandCpp data-tip="GitHub" /> */}
-                  <IoLogoJavascript data-tip="JavaScript" />
+                  <FaPython data-tip="Python" />
                   <FaReact data-tip="React" />
                   <FaGithub data-tip="GitHub" />
                 </IconContext.Provider>

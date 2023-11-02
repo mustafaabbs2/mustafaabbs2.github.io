@@ -2,10 +2,11 @@ import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
 import { Event } from '../Shared/Tracking';
 
-import squareImg from '../../images/thumbnails/companies/square.png';
-import twitterImg from '../../images/thumbnails/companies/twitter.png';
-import tunnelbearImg from '../../images/thumbnails/companies/tunnelbear.png';
-import pagerdutyImg from '../../images/thumbnails/companies/pagerduty.png';
+import ansysImg from '../../images/thumbnails/companies/ANSS.D.png';
+import vwImg from '../../images/thumbnails/companies/VOW3.DE.D.png';
+import rwthImg from '../../images/thumbnails/companies/rwth-black-logo.png';
+import fordImg from '../../images/thumbnails/companies/ford.jpg';
+
 import './styles.scss';
 
 const Experience = () => {
@@ -13,24 +14,29 @@ const Experience = () => {
     <Container className="experience" fluid>
       <Col>
         <Row>
-          <h2>Experience</h2>
+          <h2>Experience and Education </h2>
         </Row>
         <Col>
           <Row>
             <Col sm={3}>
               <Row>
                 <a
-                  href="https://squ.re/3DxM7U2"
-                  target="square"
+                  href="https://www.ansys.com/"
+                  target="ansys"
                   onClick={() =>
                     Event(
                       'Experience',
-                      'Clicked Square company link',
-                      'Square company link',
+                      'Clicked ansys company link',
+                      'ansys company link',
                     )
                   }
                 >
-                  <img src={squareImg} alt="square" />
+                  <img
+                    src={ansysImg}
+                    width="100" // Specify the desired width in pixels
+                    height="100" // Specify the desired height in pixels
+                    alt="ansys"
+                  />
                 </a>
               </Row>
               <Row>
@@ -56,7 +62,12 @@ const Experience = () => {
                     )
                   }
                 >
-                  <img src={twitterImg} alt="twitter" />
+                  <img
+                    src={vwImg}
+                    width="100" // Specify the desired width in pixels
+                    height="100" // Specify the desired height in pixels
+                    alt="vw"
+                  />
                 </a>
               </Row>
               <Row>
@@ -69,47 +80,57 @@ const Experience = () => {
             <Col sm={3}>
               <Row>
                 <a
-                  href="https://bit.ly/tunnelbear_home"
-                  target="tunnelbear"
+                  href="https://www.rwth-aachen.de/go/id/a/?lidx=1"
+                  target="rwth"
                   onClick={() =>
                     Event(
                       'Experience',
-                      'Clicked TunnelBear company link',
-                      'TunnelBear company link',
+                      'Clicked rwth link',
+                      'rwth company link',
                     )
                   }
                 >
-                  <img src={tunnelbearImg} alt="tunnelbear" />
+                  <img
+                    src={rwthImg}
+                    width="230" // Specify the desired width in pixels
+                    height="100" // Specify the desired height in pixels
+                    alt="rwth"
+                  />
                 </a>
               </Row>
               <Row>
-                <h3>Site Reliability Engineer</h3>
+                <h3>MSc. Computational Science</h3>
               </Row>
               <Row>
-                <h4>TunnelBear</h4>
+                <h4>RWTH Aachen University</h4>
               </Row>
             </Col>
             <Col sm={3}>
               <Row>
                 <a
                   href="https://bit.ly/pagerduty_home"
-                  target="pagerduty"
+                  target="ford"
                   onClick={() =>
                     Event(
                       'Experience',
-                      'Clicked PagerDuty company link',
-                      'PagerDuty company link',
+                      'Clicked ford company link',
+                      'ford company link',
                     )
                   }
                 >
-                  <img src={pagerdutyImg} alt="pagerduty" />
+                  <img
+                    src={fordImg}
+                    width="150" // Specify the desired width in pixels
+                    height="120" // Specify the desired height in pixels
+                    alt="ford"
+                  />
                 </a>
               </Row>
               <Row>
-                <h3>Software Engineer Intern</h3>
+                <h3>Product Development Engineer</h3>
               </Row>
               <Row>
-                <h4>PagerDuty</h4>
+                <h4>Ford Motor Company</h4>
               </Row>
             </Col>
           </Row>
