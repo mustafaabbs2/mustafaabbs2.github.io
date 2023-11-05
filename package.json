@@ -76,5 +76,14 @@
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "tsparticles": "^2.8.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
   }
 }
