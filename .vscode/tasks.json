@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "[YARN] Start Dev Server",
+      "type": "shell",
+      "command": "yarn start",
+      "problemMatcher": [],
+      "group": "build",
+      "detail": "Runs the development server with Yarn"
+    },
+    {
+      "label": "[YARN] Build Production",
+      "type": "shell",
+      "command": "yarn build",
+      "problemMatcher": [],
+      "group": "build",
+      "detail": "Builds the project for production with Yarn"
+    },
+    {
+      "label": "[YARN] Deploy to GitHub Pages",
+      "type": "shell",
+      "command": "yarn deploy",
+      "problemMatcher": [],
+      "group": "build",
+      "detail": "Deploys the project to GitHub Pages with Yarn"
+    },
+    {
+      "label": "[YARN] Update Yarn packages",
+      "type": "shell",
+      "command": "yarn upgrade",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Updates all Yarn packages to their latest versions."
+    },
+    {
+      "label": "[YARN] Install Yarn packages",
+      "type": "shell",
+      "command": "yarn install",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Installs Yarn packages as defined in package.json."
+    }
+  ]
+}
