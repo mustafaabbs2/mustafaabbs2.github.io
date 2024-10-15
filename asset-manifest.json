@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ade62ce6.chunk.css",
-    "main.js": "/static/js/main.dfca780c.chunk.js",
-    "main.js.map": "/static/js/main.dfca780c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.906d5e0f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.906d5e0f.js.map",
-    "static/css/2.e4cb396d.chunk.css": "/static/css/2.e4cb396d.chunk.css",
-    "static/js/2.938c9ef9.chunk.js": "/static/js/2.938c9ef9.chunk.js",
-    "static/js/2.938c9ef9.chunk.js.map": "/static/js/2.938c9ef9.chunk.js.map",
+    "main.css": "/static/css/main.045c00f7.chunk.css",
+    "main.js": "/static/js/main.ffc040b0.chunk.js",
+    "main.js.map": "/static/js/main.ffc040b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cf5ededb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cf5ededb.js.map",
+    "static/css/2.896c4c41.chunk.css": "/static/css/2.896c4c41.chunk.css",
+    "static/js/2.a0663911.chunk.js": "/static/js/2.a0663911.chunk.js",
+    "static/js/2.a0663911.chunk.js.map": "/static/js/2.a0663911.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ceb0df351a24755ca456a3913de16a5f.js": "/precache-manifest.ceb0df351a24755ca456a3913de16a5f.js",
+    "precache-manifest.3c86d5c28a9db9d5fd4d64876468bfa1.js": "/precache-manifest.3c86d5c28a9db9d5fd4d64876468bfa1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.e4cb396d.chunk.css.map": "/static/css/2.e4cb396d.chunk.css.map",
-    "static/css/main.ade62ce6.chunk.css.map": "/static/css/main.ade62ce6.chunk.css.map",
-    "static/js/2.938c9ef9.chunk.js.LICENSE.txt": "/static/js/2.938c9ef9.chunk.js.LICENSE.txt",
+    "static/css/2.896c4c41.chunk.css.map": "/static/css/2.896c4c41.chunk.css.map",
+    "static/css/main.045c00f7.chunk.css.map": "/static/css/main.045c00f7.chunk.css.map",
+    "static/js/2.a0663911.chunk.js.LICENSE.txt": "/static/js/2.a0663911.chunk.js.LICENSE.txt",
     "static/media/ANSS.D.png": "/static/media/ANSS.D.448cc8c2.png",
     "static/media/VOW3.DE.D.png": "/static/media/VOW3.DE.D.9e573c94.png",
     "static/media/about2.png": "/static/media/about2.cd430890.png",
@@ -22,10 +22,10 @@
     "static/media/logo_small.ico": "/static/media/logo_small.9d2282c1.ico"
   },
   "entrypoints": [
-    "static/js/runtime-main.906d5e0f.js",
-    "static/css/2.e4cb396d.chunk.css",
-    "static/js/2.938c9ef9.chunk.js",
-    "static/css/main.ade62ce6.chunk.css",
-    "static/js/main.dfca780c.chunk.js"
+    "static/js/runtime-main.cf5ededb.js",
+    "static/css/2.896c4c41.chunk.css",
+    "static/js/2.a0663911.chunk.js",
+    "static/css/main.045c00f7.chunk.css",
+    "static/js/main.ffc040b0.chunk.js"
   ]
 }
