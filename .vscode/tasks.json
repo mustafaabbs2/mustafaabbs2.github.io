@@ -2,12 +2,28 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "[NPM] Start Dev Server",
+      "type": "npm",
+      "script": "start",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Runs the development server"
+    },
+    {
       "label": "[YARN] Start Dev Server",
       "type": "shell",
       "command": "yarn start",
       "problemMatcher": [],
       "group": "build",
       "detail": "Runs the development server with Yarn"
+    },
+    {
+      "label": "[NPM] Build Production",
+      "type": "npm",
+      "script": "build",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Builds the project for production"
     },
     {
       "label": "[YARN] Build Production",
@@ -18,12 +34,31 @@
       "detail": "Builds the project for production with Yarn"
     },
     {
+      "label": "[NPM] Deploy to GitHub Pages",
+      "type": "npm",
+      "script": "deploy",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Deploys the project to GitHub Pages"
+    },
+    {
       "label": "[YARN] Deploy to GitHub Pages",
       "type": "shell",
       "command": "yarn deploy",
       "problemMatcher": [],
       "group": "build",
       "detail": "Deploys the project to GitHub Pages with Yarn"
+    },
+    {
+      "label": "[NPM] Update npm packages",
+      "type": "shell",
+      "command": "npm update",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Updates all npm packages to their latest versions."
     },
     {
       "label": "[YARN] Update Yarn packages",
@@ -37,7 +72,18 @@
       "detail": "Updates all Yarn packages to their latest versions."
     },
     {
-      "label": "[YARN] Install Yarn packages",
+      "label": "[NPM] Install",
+      "type": "shell",
+      "command": "npm install --legacy-peer-deps",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "detail": "Installs npm packages as defined in package.json."
+    },
+    {
+      "label": "[YARN] Install",
       "type": "shell",
       "command": "yarn install",
       "problemMatcher": [],
