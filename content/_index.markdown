@@ -7,7 +7,7 @@ title: Home
 
 
 
-<div style="border: 2px solid #ccc; border-radius: 10px; padding: 32px 5vw; background: #f9f9f9; width: 90vw; max-width: 1000px; margin: 0 auto 2em auto; box-sizing: border-box; position: relative; min-height: 260px;">
+
 
 [<img src="about/about2.png" style="max-width:30%;min-width:200px;float:right; margin-left:24px; margin-bottom:12px;" alt="Mustafa profile" />](#)
 
@@ -21,7 +21,6 @@ I'm Mustafa, a R&D Software Engineer at ANSYS!
 I can usually be found in a programming IDE or reading. When I'm not tinkering with any new technology I can code with, I'm usually reading about medicine and history.
 
 
-</div>
 
 
 
