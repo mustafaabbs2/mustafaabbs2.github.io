@@ -1,0 +1,27 @@
+# Hugo standard .gitignore
+# Ignore Hugo build output
+/public/
+/resources/_gen/
+
+# Ignore Hugo cache
+hugo_stats.json
+
+# Ignore node_modules and package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore backup files
+*~
+#*
+
+# Ignore log files
+*.log
