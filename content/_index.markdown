@@ -23,8 +23,4 @@ I can usually be found in a programming IDE or reading. When I'm not tinkering w
 
 
 
-
 ## Posts
-
-
-
