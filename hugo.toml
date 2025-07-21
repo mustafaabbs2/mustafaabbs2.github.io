@@ -1,6 +1,6 @@
 baseURL = "https://mustafaabbs2.github.io/"
 languageCode = "en-us"
-title = "A minimal Hugo website"
+title = "Mustafa Bhotvawala"
 theme = "xmin"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
@@ -30,6 +30,7 @@ footnotereturnlinkcontents = "↩"
 [params]
   description = "A website built through Hugo."
   footer = "&copy; Mustafa Bhotvawala 2025 | [Github](https://github.com/mustafaabbs2)"
+  favicon = "about/logo_small.ico"
 
 [deployment]
   [[deployment.targets]]
