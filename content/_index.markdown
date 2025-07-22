@@ -19,7 +19,8 @@ I'm Mustafa, a R&D Software Engineer at ANSYS!
 - 🌱 **Things I'm getting better at**: Full stack development focused on making portable and lightweight applications. Boy, this needs work...
 
 I can usually be found in a programming IDE or reading. When I'm not tinkering with any new technology I can code with, I'm usually reading about medicine and history.
-
+<!-- 
+[<img src="https://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:;" alt="Github repo" />](https://github.com/mustafaabbs2) -->
 
 
 

@@ -67,7 +67,7 @@ $$
 u_\tau = (C_\mu)^{\frac{1}{4}} (k)^{\frac{1}{2}}
 $$
 
-This can be compared to the code. Open the kLowReWallFunctionFvPatchScalarField.H file. The most important function in any wall function file in OpenFOAM is the updateCoeffs() function.
+This can be compared to the code. Open the `kLowReWallFunctionFvPatchScalarField.H` file. The most important function in any wall function file in OpenFOAM is the `updateCoeffs()` function.
 
 ```cpp
     const scalar Cmu25 = pow025(nutw.Cmu());
@@ -125,7 +125,7 @@ $$
 $$
 
 
-The resultant omega is a magnitude quantity from both these omegas. For a lower y, the 1/y² quantity is dominant, and hence the treatment is that of a viscous sublayer. Compare this to the code in omegaWallFunctionsFvPatchScalarField.C.
+The resultant omega is a magnitude quantity from both these omegas. For a lower y, the 1/y² quantity is dominant, and hence the treatment is that of a viscous sublayer. Compare this to the code in `omegaWallFunctionsFvPatchScalarField.C`.
 
 ```cpp
 const label celli = patch().faceCells()[facei];
@@ -145,7 +145,7 @@ if (blended_)
 
 ```
 
-Note that you see a w = cornerWeights[facei]; line there. The w is a weight that is multiplied to any resulting quantity. This can be seen in the function createAveragingWeights()
+Note that you see a `w = cornerWeights[facei];` line there. The w is a weight that is multiplied to any resulting quantity. This can be seen in the function `createAveragingWeights()`
 
 ```cpp
 forAll(bf, patchi)
@@ -166,7 +166,7 @@ forAll(bf, patchi)
 
 ```
 
-Why is this done? Because quantities like omega (ω) are calculated at the cell-centre. If more faces on a cell lie on a boundary patch (bf[patchi]), the cell-centre has to be a weighted average of the quantities on each face. For the turbulence kinetic energy k, this is not done as the cell face values are used.
+Why is this done? Because quantities like omega (ω) are calculated at the cell-centre. If more faces on a cell lie on a boundary patch `(bf[patchi])`, the cell-centre has to be a weighted average of the quantities on each face. For the turbulence kinetic energy k, this is not done as the cell face values are used.
 
 There are other quantities like the turbulent viscosity μₜ (nut), which require wall functions to correctly calculate the wall shear stress. I could cover this in another article.
 
