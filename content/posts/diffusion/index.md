@@ -64,7 +64,7 @@ Recall this slightly modified image of a non-orthogonal pair arrangement we saw 
 The dot product $$(\nabla \mathbf{U})_f \cdot \mathbf{\hat{n}}_f$$ is now difficult to evaluate. To resolve this, let’s zoom into Cell 2:
 
 
-The unit normal vector is split into two – an orthogonal component \Delta and a non-orthogonal component k , where:
+The unit normal vector is split into two – an orthogonal component $\Delta$ and a non-orthogonal component k , where:
 
 $$\mathbf{\hat{n}} = \Delta + \mathbf{k} $$
 Let’s try substituting this in the discretization:
