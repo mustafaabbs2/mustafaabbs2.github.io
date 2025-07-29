@@ -13,7 +13,7 @@ title: Home
 
 I'm Mustafa, a R&D Software Engineer at ANSYS!
 
-At work, I develop software for ANSYS's (now Synopsys) flagship Computational Fluid Dynamics (CFD) product, ANSYS Fluent. My work primarily focuses on building robust, scalable, and efficient software solutions for scientific and engineering applications. I previously completed a MSc. in Computational Science from the RWTH Aachen. 
+At work, I develop software for ANSYS's (now Synopsys) flagship Computational Fluid Dynamics (CFD) product, ANSYS Fluent. My work primarily focuses on building robust, scalable, and efficient software solutions for scientific and engineering applications. I previously completed a MSc. in Computational Science from the RWTH Aachen University in Germany. 
 
 In general, I specialize in software development for CFD and other scientific programming domains, with a strong foundation in High Performance Computing (HPC). My experience spans parallel programming with OpenMP, MPI, and CUDA, and I maintain a deep interest in computer architecture and operating systems that grew from my early days in HPC.
 
