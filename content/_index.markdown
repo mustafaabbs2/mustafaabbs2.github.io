@@ -11,6 +11,7 @@ title: Home
 
 [<img src="about/about2.png" style="max-width:30%;min-width:200px;float:right; margin-left:24px; margin-bottom:12px;" alt="Mustafa profile" />](#)
 
+<div class="text-box">
 I'm Mustafa, a R&D Software Engineer at ANSYS!
 
 At work, I develop software for ANSYS's (now Synopsys) flagship Computational Fluid Dynamics (CFD) product, ANSYS Fluent. My work primarily focuses on building robust, scalable, and efficient software solutions for scientific and engineering applications. I previously completed a MSc. in Computational Science from the RWTH Aachen University in Germany. 
@@ -20,9 +21,8 @@ In general, I specialize in software development for CFD and other scientific pr
 Outside of work, I enjoy tennis, reading, and quizzing. 
 I play counterpunching tennis, read books on history and medicine, and quiz terribly. I currently reside in Pune, India with my wife. 
 
+</div>
+
 <!-- 
 [<img src="https://simpleicons.org/icons/github.svg" style="max-width:10%;min-width:40px;float:;" alt="Github repo" />](https://github.com/mustafaabbs2) -->
 
-
-
-## Posts
