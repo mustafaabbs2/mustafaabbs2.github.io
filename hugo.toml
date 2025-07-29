@@ -1,6 +1,6 @@
 baseURL = "https://mustafaabbs2.github.io/"
 languageCode = "en-us"
-title = "Mustafa Bhotvawala"
+title = "Erkenntnis"
 theme = "xmin"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
