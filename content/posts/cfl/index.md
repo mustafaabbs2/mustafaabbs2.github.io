@@ -1,5 +1,5 @@
 ---
-title: "The Courant–Friedrichs–Lewy (CFL) Condition – Beyond Formulae!"
+title: "Characteristic Lines To CFL"
 date: 2021-01-31T10:00:00+00:00
 draft: false
 tags: ["numerical methods", "openfoam"]

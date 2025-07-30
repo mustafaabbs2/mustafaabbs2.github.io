@@ -1,5 +1,5 @@
 ---
-title: "The Diffusion Term in OpenFOAM and Non-Orthogonality!"
+title: "The Diffusion Term in OpenFOAM and Non-Orthogonality"
 date: 2021-02-17T10:00:00+00:00
 draft: false
 tags: ["numerical methods", "openfoam"]
