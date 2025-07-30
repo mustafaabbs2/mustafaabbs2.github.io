@@ -6,12 +6,18 @@ tags: ["numerical methods", "openfoam"]
 categories: ["mathematics", "CFD"]
 ---
 
+![diffusion](diffusion_1.png)
+
 The example above is an example of an orthogonal arragement of cells. This means that the face normal is along the same direction as the direction of the vector connecting the centroids of the two cells. Life is good if we have these! This is why non-orthogonality is a major test criterion in mesh checks – let’s discover why in this post.
 
 In contrast, the following arrangement shows cells that display non-orthogonality:
 
+![diffusion](diffusion_2.png)
+
 
 The face normal vector in the image above is at an angle to the horizontal – and ergo, the line connecting the two cell centroids. This is non-orthogonality.
+
+![diffusion](diffusion_3.png)
 
 
 The image above is an example of an arrangement of cells that is both skew and non-orthogonal. As is clear, the difference between the non-orthogonality and skewness is – when the two centroids are connected by a line that does not pass through the face center of the face, there is an offset between the face center and the point at which the connecting line bisects the face.
@@ -61,6 +67,9 @@ But what if the mesh is non-orthogonal? Depending on the orthogonality of the ce
 Recall this slightly modified image of a non-orthogonal pair arrangement we saw earlier:
 
 
+![diffusion](diffusion_4.png)
+
+
 The dot product $$(\nabla \mathbf{U})_f \cdot \mathbf{\hat{n}}_f$$ is now difficult to evaluate. To resolve this, let’s zoom into Cell 2:
 
 
@@ -86,6 +95,9 @@ $$
 $$
 
 The left “orthogonal” part of this sum can be evaluated implicitly, while the “non-orthogonal” (correction) part must be evaluated explicitly. This is the over-relaxed approach explained in Prof. Jasak’s thesis.
+
+![diffusion](diffusion_5.png)
+
 
 The `snGradScheme` entry help in deciding how delta and k are calculated. For example, orthogonal is used when the mesh does not require any non-orthogonal correction. This will be listed in `fvSchemes` as:
 

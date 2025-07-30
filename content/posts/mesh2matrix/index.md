@@ -29,9 +29,18 @@ The aim of the discretization scheme from a performance perspective is to keep t
 This is an example of a sparse matrix with a random renumbering applied to an unstructured mesh – most of the entries in the matrix are 0, but they’re still spread everywhere – causing severe performance degradation for the linear solvers having to solve them.
 
 
+![Onion layering](mesh2matrix_3.png)
+
+
+
 Let’s look at how this numbering happens for simple structured meshes in OpenFOAM. A 2-D mesh in OpenFOAM is numbered with the so-called ‘onion’ method. Each new index is assigned to a cell that is the neighbour of a cell with the current lowest index. Consider the simple structured mesh with 9 cells in the figure below:
 
+![Onion layering](mesh2matrix_1.png)
+
 Let’s say the first cell is on the lower bottom edge – Cell 0. The next cell is assigned next to the current lowest index (which is 0). Hence Cell 1 is next to Cell 0. The current lowest cell index that still has free neighbours is still Cell 0. Hence, the next cell, Cell 2, is assigned next to Cell 0. Now the current lowest index is Cell 1, since Cell 0 has no more free spots for neighbours, Hence, Cell 3 is assigned to be next to Cell 1. Carry on this way and see why it’s called the onion method – you get to add and peel off layers!
+
+![Onion layering](mesh2matrix_2.png)
+
 
 The way a matrix is created from this is you cycle one by one through all the cells, creating a 9 by 9 matrix. Each cell finds itself once in the diagonal element of the matrix and that row is filled with the coefficients of all its neighbours. For example, Cell 0 would have its diagonal element on the first row (Row 0) of this matrix and the only entries in this row would be be Column 0, Column 1 and Column 2 – since these represent Cell 0 and its neighbours Cell 1 and Cell 2 respectively.
 
