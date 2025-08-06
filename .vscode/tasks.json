@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Hugo Server",
+            "type": "shell",
+            "command": "hugo",
+            "args": [
+                "server",
+                "--disableFastRender"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+                "statusbar": {
+                    "color": "#00aa55",
+                    "icon": {
+                        "id": "play"
+                    }
+                }
+            }
+        }
+    ]
+}
